@@ -1,0 +1,667 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: -44
+  verticalOffset: -22
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Orthogonal ConnectorsT9WQ
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 260
+      y: 302
+    targetPoint:
+      x: 313
+      y: 222
+    sourceID: Hugging FacemsrPn
+    targetID: PythonmfWHb
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Orthogonal ConnectorOgWhE
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 249.5
+      y: 146
+    targetPoint:
+      x: 463
+      y: 172
+    sourceID: GitHubD1ZKB
+    targetID: PythonmfWHb
+    segments:
+      - type: Orthogonal
+        direction: Right
+        length: 213.5
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight ConnectorU1LmJ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 463
+      y: 272
+    targetPoint:
+      x: 463
+      y: 310
+    sourceID: PythonmfWHb
+    targetID: Vertex AILOWaS
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Orthogonal Connectorp54qR
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 716
+      y: 272
+    targetPoint:
+      x: 463
+      y: 310
+    sourceID: NvidiavcZvL
+    targetID: Vertex AILOWaS
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png);"></div><div
+        class="c-text"><div class="c-title">Python</div><div
+        class="c-short-description">Rapid development of diverse applications
+        through its readable syntax and extensive libraries</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Python</div></div></div></div></div>'
+    id: PythonmfWHb
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+        shortDescription: Rapid development of diverse applications through its readable
+          syntax and extensive libraries
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__044448_g32jqq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 463
+    offsetY: 222
+    zIndex: 0
+    inEdges:
+      - Orthogonal ConnectorsT9WQ
+      - Orthogonal ConnectorOgWhE
+    outEdges:
+      - Dashed Straight ConnectorU1LmJ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2A2A2A; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GitHub_Black_87_rbjcrb.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GitHub_a1b3qn.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>GitHub</div></div><hr class="c-underrule"
+        style="background-color: #2A2A2A"></div>'
+    id: GitHubD1ZKB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: GitHub
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: GitHub
+      status: N/A
+      size: sm
+      nodeType: html
+      title: GitHub
+      editableName: GitHub
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Code Repository
+          type: Storage
+          portsIn:
+            put: code
+            get: fetch
+          portsOut:
+            stored: code
+        - name: Build Tool
+          type: Processor
+          portsIn:
+            job: code
+          portsOut:
+            job: artifacts
+          serviceTime:
+            exp:
+              lambda: AverageBuildDuration
+        - name: Provisioner
+          type: Processor
+          portsIn:
+            job: configuration
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageProvisioningDuration
+        - name: Deployment Tool
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Artifact Repository
+          type: Storage
+          portsIn:
+            put: artifacts
+            get: fetch
+          portsOut:
+            stored: artifacts
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Code Repository
+        - type: Processor
+          status: Idle
+          name: Build Tool
+          AverageBuildDuration: 1
+        - type: Processor
+          status: Idle
+          name: Provisioner
+          AverageProvisioningDuration: 1
+        - type: Processor
+          status: Idle
+          name: Deployment Tool
+          AverageDeploymentDuration: 1
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Storage
+          status: Idle
+          name: Artifact Repository
+      name: GitHub
+      category: 2
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GitHub_a1b3qn.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GitHub__044448_n66ulb.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GitHub_Black_87_rbjcrb.png
+      color: "#2A2A2A"
+      controlText: GitHub
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 199.5
+    offsetY: 146
+    zIndex: 1
+    outEdges:
+      - Orthogonal ConnectorOgWhE
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #9E630B; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Hugging
+        Face</div></div><hr class="c-underrule" style="background-color:
+        #9E630B"></div>'
+    id: Hugging FacemsrPn
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Hugging Face
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Hugging Face
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Hugging Face
+      editableName: Hugging Face
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Model Repository
+          type: Storage
+          portsIn:
+            put: models
+            get: fetch
+          portsOut:
+            stored: models
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Model Repository
+      name: Hugging Face
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face__044448_dhzej2.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png
+      color: "#9E630B"
+      controlText: Hugging Face
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 120.99999999999999
+    height: 124
+    offsetX: 199.5
+    offsetY: 302
+    zIndex: 2
+    outEdges:
+      - Orthogonal ConnectorsT9WQ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI Workbench</div><div
+        class="c-short-description">Jupyter notebook environment</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Vertex AILOWaS
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Jupyter notebook environment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Vertex AI Workbench
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 463
+    offsetY: 360
+    zIndex: 5
+    inEdges:
+      - Dashed Straight ConnectorU1LmJ
+      - Dashed Orthogonal Connectorp54qR
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BA5512; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Jupyter_Black_87_uahk2k.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Jupyter_lm2xh2.png);
+        border-radius: 50%"></div></div></div>'
+    id: JupyterqT4b4
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Jupyter
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Jupyter
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Jupyter
+      editableName: Jupyter
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: IDE
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: IDE
+          AverageTimeBetweenRequests: 1
+      name: Jupyter
+      category: 9
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter_lm2xh2.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter__044448_fyi1ig.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter_Black_87_uahk2k.png
+      color: "#BA5512"
+      controlText: Jupyter
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 638
+    offsetY: 360
+    zIndex: 6
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #5A821F; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_Black_87_mhcpj8.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_a73jyo.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Accelerators</div></div><hr class="c-underrule"
+        style="background-color: #5A821F"></div>'
+    id: NvidiavcZvL
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Nvidia
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Nvidia
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Nvidia
+      editableName: Accelerators
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Nvidia
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_a73jyo.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia__044448_mn6spy.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_Black_87_mhcpj8.png
+      color: "#5A821F"
+      controlText: Nvidia
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 716
+    offsetY: 210
+    zIndex: 8
+    outEdges:
+      - Dashed Orthogonal Connectorp54qR
+selectedItems:
+  width: 0
+  height: 0
